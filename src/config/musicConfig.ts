@@ -48,10 +48,24 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/遠天、とある忘れ物.mp3",
-				cover: "/assets/music/cover/遠天、とある忘れ物.webp",
+				name: "水月陵-散花",
+				artist: "水月陵",
+				url: "/assets/music/水月陵-散花.mp3",
+				cover: "/assets/music/cover/水月陵-散花.webp",
+				lrc: "",
+			},
+			{
+				name: "蓬莱伝説~Dolls In Psuedo Parad",
+				artist: "Forest306",
+				url: "/assets/music/蓬莱伝説~Dolls In Psuedo Paradise.mp3",
+				cover: "/assets/music/cover/蓬莱伝説~Dolls In Psuedo Paradise.webp",
+				lrc: "",
+			},
+			{
+				name: "天狗舞踏会",
+				artist: "Foxtail-Grass Studio ",
+				url: "/assets/music/天狗舞踏会.mp3",
+				cover: "/assets/music/cover/天狗舞踏会.webp",
 				lrc: "",
 			},
 		],
