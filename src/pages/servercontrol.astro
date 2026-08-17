@@ -1,0 +1,30 @@
+---
+import { getEntry, render } from "astro:content";
+import Markdown from "@components/common/Markdown.astro";
+import EncryptedContent from "@components/features/EncryptedContent.astro";
+import MainGridLayout from "@/layouts/MainGridLayout.astro";
+
+const serverPost = await getEntry("spec", "servercontrol");
+
+if (!serverPost) {
+	throw new Error("servercontrol page content not found");
+}
+
+const { Content } = await render(serverPost);
+
+// 页面访问密码（改成你自己的！）
+const pagePassword = "123456789";
+const passwordHint = "密码提示（可不填）";
+---
+
+<MainGridLayout title="服务器控制" description="服务器控制入口">
+  <div class="flex w-full rounded-(--radius-large) overflow-hidden relative min-h-32">
+    <div class="card-base z-10 px-9 py-6 relative w-full">
+      <EncryptedContent password={pagePassword} slug="servercontrol" hint={passwordHint}>
+        <Markdown class="mt-2">
+          <Content />
+        </Markdown>
+      </EncryptedContent>
+    </div>
+  </div>
+</MainGridLayout>

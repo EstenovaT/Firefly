@@ -7,7 +7,7 @@ export const sakuraConfig: SakuraConfig = {
 	enable: true,
 
 	// 樱花数量
-	sakuraNum: 21,
+	sakuraNum: 8,
 
 	// 樱花越界限制次数，-1为无限循环
 	limitTimes: -1,
@@ -33,16 +33,16 @@ export const sakuraConfig: SakuraConfig = {
 		// 水平移动
 		horizontal: {
 			// 水平移动速度最小值
-			min: -1.7,
+			min: -1.0,
 			// 水平移动速度最大值
-			max: -1.2,
+			max: -0.5,
 		},
 		// 垂直移动
 		vertical: {
 			// 垂直移动速度最小值
-			min: 1.5,
+			min: 0.8,
 			// 垂直移动速度最大值
-			max: 2.2,
+			max: 1.5,
 		},
 		// 旋转速度
 		rotation: 0.03,

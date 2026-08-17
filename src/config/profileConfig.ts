@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Estenova",
 
 	// 个人签名
-	bio: "装修中.",
+	bio: "动画宅，技术宅",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -33,12 +33,12 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/EstenovaT",
 			showName: false,
 		},
-		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
-			showName: false,
-		},
+		// {
+		// 	name: "Email",
+		// 	icon: "fa7-solid:envelope",
+		// 	url: "mailto:xiaye@msn.com",
+		// 	showName: false,
+		// },
 		{
 			name: "RSS",
 			icon: "fa7-solid:rss",
