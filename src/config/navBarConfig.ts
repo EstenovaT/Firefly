@@ -225,7 +225,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Servercontrol:{
 		name: "服务器控制",
 		url: "/servercontrol/",
-		icon: "material-symbols:movie",
+		icon: "material-symbols:dns",
 	},
 };
 
