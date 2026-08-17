@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "EstenovaBlog",
 
 	// 站点 URL
-	site_url: "https://estenova.top",
+	site_url: "https://blog.estenova.top",
 
 	// 站点描述
 	description:
